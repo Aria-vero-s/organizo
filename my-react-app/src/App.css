@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  margin: 50px;
+  padding:50px;
+  background-color: #ffec44;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .App {
+    width:50%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  transition: border 0.3s;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #000;
+  outline: none;
+}
+
+button {
+  background-color: #000;
+  color: white;
+  padding: 12px 30px;
+  margin-left:4px;
+  margin-right:4px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  color: #ffec44;
+}
+
+.secondary-button {
+  background-color: #ffffff;
+  color: black;
+  padding: 12px 30px;
+  margin-left:4px;
+  margin-right:4px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.secondary-button:hover {
+  color: #ffec44;
+}
+
+h1 {
+  color: #000;
+  text-transform: uppercase;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  border-radius: 25px;
+}
+
+.flex {
+  display: flex;
+  flex:auto;
+  justify-content: right;
+  align-items: center;
+  margin:0 auto;
+}
