@@ -1,6 +1,6 @@
 # Organizo : React To-Do List App
 
-![mockup](mockup.png)
+![mockup](mockup2.png)
 
 Organizo is a simple React application that allows users to create, read, update, and delete (CRUD) tasks in a to-do list.
 
@@ -24,7 +24,7 @@ git clone https://github.com/aria-vero-s/organizo.git
 
 2. Navigate to the project folder.
 ```bash
-cd organizo
+cd my-react-app
 ```
 3. Install dependencies.
 ```bash
